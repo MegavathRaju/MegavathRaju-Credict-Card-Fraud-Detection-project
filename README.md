@@ -30,10 +30,12 @@ Credit card fraud detection is critical to financial institutions. The goal is t
    - Used **SMOTE (Synthetic Minority Oversampling Technique)** to balance the dataset
 
 3. **Modeling**
+   - Applied **One-Class SVM** to detect anomaly detection
+   - Applied **Isolated Random Forest** to detect improved anamoly detection
    - Applied **XGBoost Classifier** with optimized hyperparameters
    - Also tested **Random Forest**, **Logistic Regression**
 
-4. **Evaluation Metrics**
+5. **Evaluation Metrics**
    - **Precision**
    - **Recall**
    - **Confusion Matrix**
